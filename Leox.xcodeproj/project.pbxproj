@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93CC8D5A1C069FBB00D63CC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CC8D591C069FBB00D63CC1 /* main.m */; };
+		93CC8D5D1C069FBB00D63CC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CC8D5C1C069FBB00D63CC1 /* AppDelegate.m */; };
+		93CC8D601C069FBB00D63CC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CC8D5F1C069FBB00D63CC1 /* ViewController.m */; };
+		93CC8D631C069FBB00D63CC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93CC8D611C069FBB00D63CC1 /* Main.storyboard */; };
+		93CC8D651C069FBB00D63CC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CC8D641C069FBB00D63CC1 /* Assets.xcassets */; };
+		93CC8D681C069FBB00D63CC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93CC8D661C069FBB00D63CC1 /* LaunchScreen.storyboard */; };
+		93CC8D731C069FBC00D63CC1 /* LeoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CC8D721C069FBC00D63CC1 /* LeoxTests.m */; };
+		93CC8D7E1C069FBC00D63CC1 /* LeoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CC8D7D1C069FBC00D63CC1 /* LeoxUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93CC8D6F1C069FBC00D63CC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93CC8D4D1C069FBB00D63CC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93CC8D541C069FBB00D63CC1;
+			remoteInfo = Leox;
+		};
+		93CC8D7A1C069FBC00D63CC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93CC8D4D1C069FBB00D63CC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93CC8D541C069FBB00D63CC1;
+			remoteInfo = Leox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93CC8D551C069FBB00D63CC1 /* Leox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93CC8D591C069FBB00D63CC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93CC8D5B1C069FBB00D63CC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93CC8D5C1C069FBB00D63CC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93CC8D5E1C069FBB00D63CC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		93CC8D5F1C069FBB00D63CC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		93CC8D621C069FBB00D63CC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93CC8D641C069FBB00D63CC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93CC8D671C069FBB00D63CC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93CC8D691C069FBB00D63CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93CC8D6E1C069FBC00D63CC1 /* LeoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93CC8D721C069FBC00D63CC1 /* LeoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeoxTests.m; sourceTree = "<group>"; };
+		93CC8D741C069FBC00D63CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93CC8D791C069FBC00D63CC1 /* LeoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93CC8D7D1C069FBC00D63CC1 /* LeoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeoxUITests.m; sourceTree = "<group>"; };
+		93CC8D7F1C069FBC00D63CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93CC8D521C069FBB00D63CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93CC8D6B1C069FBC00D63CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93CC8D761C069FBC00D63CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93CC8D4C1C069FBB00D63CC1 = {
+			isa = PBXGroup;
+			children = (
+				93CC8D571C069FBB00D63CC1 /* Leox */,
+				93CC8D711C069FBC00D63CC1 /* LeoxTests */,
+				93CC8D7C1C069FBC00D63CC1 /* LeoxUITests */,
+				93CC8D561C069FBB00D63CC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93CC8D561C069FBB00D63CC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93CC8D551C069FBB00D63CC1 /* Leox.app */,
+				93CC8D6E1C069FBC00D63CC1 /* LeoxTests.xctest */,
+				93CC8D791C069FBC00D63CC1 /* LeoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93CC8D571C069FBB00D63CC1 /* Leox */ = {
+			isa = PBXGroup;
+			children = (
+				93CC8D5B1C069FBB00D63CC1 /* AppDelegate.h */,
+				93CC8D5C1C069FBB00D63CC1 /* AppDelegate.m */,
+				93CC8D5E1C069FBB00D63CC1 /* ViewController.h */,
+				93CC8D5F1C069FBB00D63CC1 /* ViewController.m */,
+				93CC8D611C069FBB00D63CC1 /* Main.storyboard */,
+				93CC8D641C069FBB00D63CC1 /* Assets.xcassets */,
+				93CC8D661C069FBB00D63CC1 /* LaunchScreen.storyboard */,
+				93CC8D691C069FBB00D63CC1 /* Info.plist */,
+				93CC8D581C069FBB00D63CC1 /* Supporting Files */,
+			);
+			path = Leox;
+			sourceTree = "<group>";
+		};
+		93CC8D581C069FBB00D63CC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93CC8D591C069FBB00D63CC1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93CC8D711C069FBC00D63CC1 /* LeoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				93CC8D721C069FBC00D63CC1 /* LeoxTests.m */,
+				93CC8D741C069FBC00D63CC1 /* Info.plist */,
+			);
+			path = LeoxTests;
+			sourceTree = "<group>";
+		};
+		93CC8D7C1C069FBC00D63CC1 /* LeoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93CC8D7D1C069FBC00D63CC1 /* LeoxUITests.m */,
+				93CC8D7F1C069FBC00D63CC1 /* Info.plist */,
+			);
+			path = LeoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93CC8D541C069FBB00D63CC1 /* Leox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93CC8D821C069FBC00D63CC1 /* Build configuration list for PBXNativeTarget "Leox" */;
+			buildPhases = (
+				93CC8D511C069FBB00D63CC1 /* Sources */,
+				93CC8D521C069FBB00D63CC1 /* Frameworks */,
+				93CC8D531C069FBB00D63CC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Leox;
+			productName = Leox;
+			productReference = 93CC8D551C069FBB00D63CC1 /* Leox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93CC8D6D1C069FBC00D63CC1 /* LeoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93CC8D851C069FBC00D63CC1 /* Build configuration list for PBXNativeTarget "LeoxTests" */;
+			buildPhases = (
+				93CC8D6A1C069FBC00D63CC1 /* Sources */,
+				93CC8D6B1C069FBC00D63CC1 /* Frameworks */,
+				93CC8D6C1C069FBC00D63CC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93CC8D701C069FBC00D63CC1 /* PBXTargetDependency */,
+			);
+			name = LeoxTests;
+			productName = LeoxTests;
+			productReference = 93CC8D6E1C069FBC00D63CC1 /* LeoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93CC8D781C069FBC00D63CC1 /* LeoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93CC8D881C069FBC00D63CC1 /* Build configuration list for PBXNativeTarget "LeoxUITests" */;
+			buildPhases = (
+				93CC8D751C069FBC00D63CC1 /* Sources */,
+				93CC8D761C069FBC00D63CC1 /* Frameworks */,
+				93CC8D771C069FBC00D63CC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93CC8D7B1C069FBC00D63CC1 /* PBXTargetDependency */,
+			);
+			name = LeoxUITests;
+			productName = LeoxUITests;
+			productReference = 93CC8D791C069FBC00D63CC1 /* LeoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93CC8D4D1C069FBB00D63CC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = OfferAppSAS;
+				TargetAttributes = {
+					93CC8D541C069FBB00D63CC1 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					93CC8D6D1C069FBC00D63CC1 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 93CC8D541C069FBB00D63CC1;
+					};
+					93CC8D781C069FBC00D63CC1 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 93CC8D541C069FBB00D63CC1;
+					};
+				};
+			};
+			buildConfigurationList = 93CC8D501C069FBB00D63CC1 /* Build configuration list for PBXProject "Leox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93CC8D4C1C069FBB00D63CC1;
+			productRefGroup = 93CC8D561C069FBB00D63CC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93CC8D541C069FBB00D63CC1 /* Leox */,
+				93CC8D6D1C069FBC00D63CC1 /* LeoxTests */,
+				93CC8D781C069FBC00D63CC1 /* LeoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93CC8D531C069FBB00D63CC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93CC8D681C069FBB00D63CC1 /* LaunchScreen.storyboard in Resources */,
+				93CC8D651C069FBB00D63CC1 /* Assets.xcassets in Resources */,
+				93CC8D631C069FBB00D63CC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93CC8D6C1C069FBC00D63CC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93CC8D771C069FBC00D63CC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93CC8D511C069FBB00D63CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93CC8D601C069FBB00D63CC1 /* ViewController.m in Sources */,
+				93CC8D5D1C069FBB00D63CC1 /* AppDelegate.m in Sources */,
+				93CC8D5A1C069FBB00D63CC1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93CC8D6A1C069FBC00D63CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93CC8D731C069FBC00D63CC1 /* LeoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93CC8D751C069FBC00D63CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93CC8D7E1C069FBC00D63CC1 /* LeoxUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93CC8D701C069FBC00D63CC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93CC8D541C069FBB00D63CC1 /* Leox */;
+			targetProxy = 93CC8D6F1C069FBC00D63CC1 /* PBXContainerItemProxy */;
+		};
+		93CC8D7B1C069FBC00D63CC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93CC8D541C069FBB00D63CC1 /* Leox */;
+			targetProxy = 93CC8D7A1C069FBC00D63CC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93CC8D611C069FBB00D63CC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93CC8D621C069FBB00D63CC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93CC8D661C069FBB00D63CC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93CC8D671C069FBB00D63CC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93CC8D801C069FBC00D63CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93CC8D811C069FBC00D63CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93CC8D831C069FBC00D63CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Leox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Leox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		93CC8D841C069FBC00D63CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Leox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Leox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		93CC8D861C069FBC00D63CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LeoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.LeoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leox.app/Leox";
+			};
+			name = Debug;
+		};
+		93CC8D871C069FBC00D63CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LeoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.LeoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leox.app/Leox";
+			};
+			name = Release;
+		};
+		93CC8D891C069FBC00D63CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LeoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.LeoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Leox;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		93CC8D8A1C069FBC00D63CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LeoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.LeoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Leox;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93CC8D501C069FBB00D63CC1 /* Build configuration list for PBXProject "Leox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93CC8D801C069FBC00D63CC1 /* Debug */,
+				93CC8D811C069FBC00D63CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93CC8D821C069FBC00D63CC1 /* Build configuration list for PBXNativeTarget "Leox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93CC8D831C069FBC00D63CC1 /* Debug */,
+				93CC8D841C069FBC00D63CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93CC8D851C069FBC00D63CC1 /* Build configuration list for PBXNativeTarget "LeoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93CC8D861C069FBC00D63CC1 /* Debug */,
+				93CC8D871C069FBC00D63CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93CC8D881C069FBC00D63CC1 /* Build configuration list for PBXNativeTarget "LeoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93CC8D891C069FBC00D63CC1 /* Debug */,
+				93CC8D8A1C069FBC00D63CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93CC8D4D1C069FBB00D63CC1 /* Project object */;
+}

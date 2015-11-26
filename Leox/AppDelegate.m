@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "LXWelcomeViewController.h"
+#import "UIColor+LXTheme.h"
 
 @interface AppDelegate ()
 
@@ -19,6 +20,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     LXWelcomeViewController *welcomeVC = [[LXWelcomeViewController alloc] initWithNibName:@"LXWelcomeViewController" bundle:nil];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:welcomeVC];
+    [navigationController.navigationBar setTranslucent:false];
+    navigationController.navigationBar.barTintColor = [UIColor themeColor];
     [self.window setRootViewController:navigationController];
     [self.window makeKeyAndVisible];
     return YES;

@@ -9,5 +9,7 @@
 #import "UIColor+LXTheme.h"
 
 @implementation UIColor (LXTheme)
-
++(UIColor *)themeColor{
+    return [[UIColor alloc] initWithRed:41/255.0f green:91/255.0f blue:130/255.0f alpha:1.0];
+}
 @end

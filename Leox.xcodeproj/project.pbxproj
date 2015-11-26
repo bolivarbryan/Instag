@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		93CC8D5A1C069FBB00D63CC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CC8D591C069FBB00D63CC1 /* main.m */; };
 		93CC8D5D1C069FBB00D63CC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CC8D5C1C069FBB00D63CC1 /* AppDelegate.m */; };
-		93CC8D601C069FBB00D63CC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CC8D5F1C069FBB00D63CC1 /* ViewController.m */; };
 		93CC8D631C069FBB00D63CC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93CC8D611C069FBB00D63CC1 /* Main.storyboard */; };
 		93CC8D651C069FBB00D63CC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CC8D641C069FBB00D63CC1 /* Assets.xcassets */; };
 		93CC8D681C069FBB00D63CC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93CC8D661C069FBB00D63CC1 /* LaunchScreen.storyboard */; };
 		93CC8D731C069FBC00D63CC1 /* LeoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CC8D721C069FBC00D63CC1 /* LeoxTests.m */; };
 		93CC8D7E1C069FBC00D63CC1 /* LeoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CC8D7D1C069FBC00D63CC1 /* LeoxUITests.m */; };
+		93CC8D901C06A8C800D63CC1 /* LXWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CC8D8E1C06A8C800D63CC1 /* LXWelcomeViewController.m */; };
+		93CC8D911C06A8C800D63CC1 /* LXWelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93CC8D8F1C06A8C800D63CC1 /* LXWelcomeViewController.xib */; };
+		93CC8D951C06AA7A00D63CC1 /* UIColor+LXTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CC8D941C06AA7A00D63CC1 /* UIColor+LXTheme.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,6 @@
 		93CC8D591C069FBB00D63CC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93CC8D5B1C069FBB00D63CC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		93CC8D5C1C069FBB00D63CC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		93CC8D5E1C069FBB00D63CC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		93CC8D5F1C069FBB00D63CC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		93CC8D621C069FBB00D63CC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93CC8D641C069FBB00D63CC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93CC8D671C069FBB00D63CC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,11 @@
 		93CC8D791C069FBC00D63CC1 /* LeoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CC8D7D1C069FBC00D63CC1 /* LeoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeoxUITests.m; sourceTree = "<group>"; };
 		93CC8D7F1C069FBC00D63CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93CC8D8D1C06A8C800D63CC1 /* LXWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LXWelcomeViewController.h; path = ViewControllers/Welcome/LXWelcomeViewController.h; sourceTree = "<group>"; };
+		93CC8D8E1C06A8C800D63CC1 /* LXWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LXWelcomeViewController.m; path = ViewControllers/Welcome/LXWelcomeViewController.m; sourceTree = "<group>"; };
+		93CC8D8F1C06A8C800D63CC1 /* LXWelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LXWelcomeViewController.xib; path = ViewControllers/Welcome/LXWelcomeViewController.xib; sourceTree = "<group>"; };
+		93CC8D931C06AA7A00D63CC1 /* UIColor+LXTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+LXTheme.h"; path = "Catoegories/UIColor+LXTheme.h"; sourceTree = "<group>"; };
+		93CC8D941C06AA7A00D63CC1 /* UIColor+LXTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+LXTheme.m"; path = "Catoegories/UIColor+LXTheme.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +106,10 @@
 		93CC8D571C069FBB00D63CC1 /* Leox */ = {
 			isa = PBXGroup;
 			children = (
+				93CC8D921C06AA4F00D63CC1 /* Categories */,
+				93CC8D8B1C06A7BF00D63CC1 /* ViewControllers */,
 				93CC8D5B1C069FBB00D63CC1 /* AppDelegate.h */,
 				93CC8D5C1C069FBB00D63CC1 /* AppDelegate.m */,
-				93CC8D5E1C069FBB00D63CC1 /* ViewController.h */,
-				93CC8D5F1C069FBB00D63CC1 /* ViewController.m */,
 				93CC8D611C069FBB00D63CC1 /* Main.storyboard */,
 				93CC8D641C069FBB00D63CC1 /* Assets.xcassets */,
 				93CC8D661C069FBB00D63CC1 /* LaunchScreen.storyboard */,
@@ -138,6 +143,33 @@
 				93CC8D7F1C069FBC00D63CC1 /* Info.plist */,
 			);
 			path = LeoxUITests;
+			sourceTree = "<group>";
+		};
+		93CC8D8B1C06A7BF00D63CC1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				93CC8D8C1C06A7CF00D63CC1 /* Welcome */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		93CC8D8C1C06A7CF00D63CC1 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				93CC8D8D1C06A8C800D63CC1 /* LXWelcomeViewController.h */,
+				93CC8D8E1C06A8C800D63CC1 /* LXWelcomeViewController.m */,
+				93CC8D8F1C06A8C800D63CC1 /* LXWelcomeViewController.xib */,
+			);
+			name = Welcome;
+			sourceTree = "<group>";
+		};
+		93CC8D921C06AA4F00D63CC1 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				93CC8D931C06AA7A00D63CC1 /* UIColor+LXTheme.h */,
+				93CC8D941C06AA7A00D63CC1 /* UIColor+LXTheme.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +234,7 @@
 		93CC8D4D1C069FBB00D63CC1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LX;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = OfferAppSAS;
 				TargetAttributes = {
@@ -246,6 +279,7 @@
 				93CC8D681C069FBB00D63CC1 /* LaunchScreen.storyboard in Resources */,
 				93CC8D651C069FBB00D63CC1 /* Assets.xcassets in Resources */,
 				93CC8D631C069FBB00D63CC1 /* Main.storyboard in Resources */,
+				93CC8D911C06A8C800D63CC1 /* LXWelcomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +304,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93CC8D601C069FBB00D63CC1 /* ViewController.m in Sources */,
 				93CC8D5D1C069FBB00D63CC1 /* AppDelegate.m in Sources */,
 				93CC8D5A1C069FBB00D63CC1 /* main.m in Sources */,
+				93CC8D901C06A8C800D63CC1 /* LXWelcomeViewController.m in Sources */,
+				93CC8D951C06AA7A00D63CC1 /* UIColor+LXTheme.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
